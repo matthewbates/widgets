@@ -3,6 +3,8 @@ import axios from "axios";
 import "./index.css";
 import Weather from "./components/Weather";
 
+console.log(process.env.REACT_APP_API_KEY);
+
 export default function App() {
   const [lat, setLat] = useState([]);
   const [lon, setLon] = useState([]);
